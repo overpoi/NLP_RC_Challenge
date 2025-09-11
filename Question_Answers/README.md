@@ -1,6 +1,16 @@
-Set 1 questions are generated from paragraphs which are extracted from the books.
-Every paragraph is 20 sentence long and for every paragraph we generate 3 questions.
-Some questions are discarded --> Undefined questions (e.g. "the narrator" as character)
+## **Set 1 — Paragraph-Based Questions**
+- Source: **paragraphs extracted from books**
+- Each paragraph contains **20 sentences**
+- From every paragraph, **3 questions** are generated
+- Some questions are discarded as **undefined** (e.g., references like *“the narrator”* without a clear identity)
+
+**Summary**
+- **Input:** 20-sentence paragraph  
+- **Output:** Up to **3 valid questions** (after filtering undefined ones)
 
 
-Set 2 questions are generated from the questions after creating CLUSTERS of questions regarding CHARACTERS or PARAGRAPHS.
+
+## **Set 2 — Cluster-Based Questions**
+- Built by **clustering questions** produced in **Set 1**
+- Clusters are formed around **characters** or **paragraphs**
+- New questions are generated from these **clusters**
